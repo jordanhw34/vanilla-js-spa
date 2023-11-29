@@ -3,12 +3,14 @@ import Posts from './views/Posts.js';
 import ViewPost from './views/ViewPost.js';
 import Settings from './views/Settings.js';
 import NotFound from './views/NotFound.js';
+//import * as fs from "fs";
+const fs = require('fs');
 
 
 /*  TO-DO
-
-    - 
-
+    - edit the text of the to-do
+    - re-order the to-do items
+    - store to-do items in json file for persistance
 */
 
 
